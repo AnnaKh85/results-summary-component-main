@@ -1,0 +1,16 @@
+{
+  "name": "ResultsSummaryComponent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-watch": "tailwindcss build -i src/main.css -o public/styles.css --watch",
+    "build": "tailwindcss build -i src/main.css -o public/styles.css"
+  },
+  "devDependencies": {
+    "postcss-import": "^15.1.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3.3.5"
+  }
+}
